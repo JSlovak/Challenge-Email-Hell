@@ -35,3 +35,10 @@ var emailedDuplicate = (function(){
   return customersToService;
 
 })();
+
+
+// Need to split up into more files:
+// Each module should have it's own file,
+//  1 Module should parse the emails that are repeated into it's array
+// 2 Module should count that how many times that email appears in that affected array (was affected in that array)
+// final module should be a few lines of code, pulling from the the other files and functions created.
